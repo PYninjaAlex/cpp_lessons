@@ -2,7 +2,7 @@
 #include <string>
 
 
-void iLoveMom() 
+void practice() 
 {
     int i = 0;
     while (true)
@@ -21,7 +21,7 @@ void iLoveMom()
 
 int main()
 {
-    iLoveMom();
+    practice();
     std::cout << "Code: 1 or 0: ";
     int output;
     std::cin >> output;
