@@ -7,7 +7,7 @@ void iLoveMom()
     int i = 0;
     while (true)
     {
-        std::cout << "I love you mom! " << i << "\n";
+        std::cout << "C++ while looop! " << i << "\n";
         ++i;
         if (i == 1001) 
         {
