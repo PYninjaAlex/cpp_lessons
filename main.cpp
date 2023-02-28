@@ -25,12 +25,8 @@ int main()
     std::cout << "Code: 1 or 0: ";
     int output;
     std::cin >> output;
-    while (output != 0 || output != 1)
+    while ((output != 0) && (output != 1))
     {
-        if (output == 1 or output == 0)
-        {
-            break;
-        }
         std::cout << "ERROR!\n";
         std::cout << "Code: 1 or 0: ";
         std::cin >> output;
