@@ -1,6 +1,7 @@
 #include <iostream>
 
-int main() {
-	std::cout << "I did it!";
+
+int last() {
+	std::cout << "\nI did it!\n";
 	return 0;
 }
