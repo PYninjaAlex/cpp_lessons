@@ -13,30 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\lessons">
+      <UniqueIdentifier>{834194f8-f5c3-4ba7-bdff-5cec58b2864e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\headers">
+      <UniqueIdentifier>{2b61fa18-3827-4b4e-a220-aa4ec8dd60c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lesson_1.h">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="lesson_2.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="lesson_1.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\lessons</Filter>
     </ClCompile>
     <ClCompile Include="lesson_3.cpp">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson_2.cpp">
+      <Filter>Исходные файлы\lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="lesson_1.h">
+      <Filter>Исходные файлы\headers</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lesson_2.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
     <ClInclude Include="lesson_3.h">
-      <Filter>Исходные файлы</Filter>
+      <Filter>Исходные файлы\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lesson_2.h">
+      <Filter>Исходные файлы\headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
